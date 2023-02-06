@@ -1,0 +1,56 @@
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.math-svg {
+  position: absolute;
+  width: 10%;
+  opacity: 0;
+  animation-name: slideUp;
+  animation-duration: 2s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.svg1 {
+  left: 10%;
+  top: 20%;
+  animation-delay: 0.5s;
+}
+
+.svg2 {
+  left: 30%;
+  top: 45%;
+}
+
+.svg3 {
+  left: 16%;
+  top: 70%;
+  animation-delay: 0.5s;
+}
+
+.svg4 {
+  left: 48%;
+  top: 55%;
+  animation-delay: 0.5s;
+}
+
+.svg5 {
+  left: 75%;
+  top: 60%;
+  width: 8%;
+}
+
+.svg6 {
+  left: 80%;
+  top: 25%;
+  animation-delay: 0.5s;
+}
